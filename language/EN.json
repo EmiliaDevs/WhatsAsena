@@ -53,9 +53,9 @@
             "IM_NOT_AFK": "```I am not AFK anymore!```",
             "AFK_TEXT": "```Beep boop! This is an automated message from my master's bot; He is unavailable at the moment!```",
             "AFK_TEXT_NOMD": "Beep boop! This is an automated message from my master's bot; He is unavailable at the moment!",
-            "HOUR": "hour",
-            "MINUTE": "minute",
-            "SECOND": "second"
+            "HOUR": "hours",
+            "MINUTE": "minutes",
+            "SECOND": "seconds"
         },
         "evaluators": {
             "TERM_DESC": "Allows to run the command on the server's shell.",
