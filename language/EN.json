@@ -32,15 +32,15 @@
             "ADD_DESC": "Adds someone to the group.",
             "ADDED": "added to the group!",
             "ALREADY_PROMOTED": "```How can I make someone admin who is already admin?```",
-            "PROMOTED": "```, admin role was given!```",
+            "PROMOTED": "```, admin role is given!```",
             "PROMOTE_DESC": "Makes any person an admin.",
-            "DEMOTE_DESC": "Takes the authority of any admin.",
+            "DEMOTE_DESC": "Demotes from admin.",
             "ALREADY_NOT_ADMIN": "```How can I make someone admin who is already admin?```",
             "DEMOTED": "```, has been demoted!```",
             "MUTE_DESC": "Mute the group chat. Only the admins can send a message.",
             "MUTED": "```Group chat muted!```",
             "UNMUTE_DESC": "Unmute the group chat. Anyone can send a message.",
-            "UNMUTED": "```The group chat has unmuted!```",
+            "UNMUTED": "```The group chat has been unmuted!```",
             "INVITE_DESC": "Provides the group's invitation link.",
             "INVITE": "```Invitation link: ```"
         },
@@ -48,11 +48,11 @@
             "AFK_DESC": "It makes you AFK - Away From Keyboard.",
             "IM_AFK": "*I'm AFK now!*",
             "IM_AFK_NOMD": "I'm AFK now!",
-            "REASON": "Reason",
-            "LAST_SEEN": "Last Seen",
+            "REASON": "Reason:",
+            "LAST_SEEN": "Last Seen:",
             "IM_NOT_AFK": "```I am not AFK anymore!```",
-            "AFK_TEXT": "```Bip bop! This is a bot. My owner is not here at the moment.```",
-            "AFK_TEXT_NOMD": "Bip bop! This is a bot. My owner is not here at the moment.",
+            "AFK_TEXT": "```Beep boop! This is an automated message from my master's bot; He is unavailable at the moment!```",
+            "AFK_TEXT_NOMD": "Beep boop! This is an automated message from my master's bot; He is unavailable at the moment!",
             "HOUR": "hour",
             "MINUTE": "minute",
             "SECOND": "second"
@@ -67,7 +67,7 @@
             "MUST_TEXT": "```Please reply to any message```"
         },
         "heroku": {
-            "RESTART_DESC": "Restart WhatsAsena",
+            "RESTART_DESC": "Restart Bot",
             "RESTART_MSG": "```restarting...```",
             "SHUTDOWN_DESC": "Shutdown WhatsAsena",
             "SHUTDOWN_MSG": "```shutting down ⛔```",
@@ -108,7 +108,7 @@
             "GOODBYE_ALREADY_SETTED": "*✅ Goodbye message has been set!*\n*Message:* ```",
             "NEED_GOODBYE_TEXT": "*You must write a message to set up the goodbye message.*\n*Example:* ```.goodbye Goodbye!```",
             "GOODBYE_DELETED": "*✅ Goodbye message has been deleted successfully!*",
-            "GOODBYE_SETTED": "*✅ Goodbye message has been setted successfully!*"
+            "GOODBYE_SETTED": "*✅ Goodbye message has been set successfully!*"
         },
         "lydia": {
             "ADDLYDIA_DESC": "Activates Lydia (AI) for the user.",
@@ -122,7 +122,7 @@
         },
         "profile": {
             "KICKME_DESC": "It kicks you from the group you are using it in.",
-            "KICKME": "```Bye bye! I am going 🤠```",
+            "KICKME": "```My master didn't like this place; See Ya :)```",
             "PP_DESC": "Makes the profile photo what photo you reply.",
             "NEED_PHOTO": "*Give me a photo!*",
             "PPING": "```Setting profile photo...```"
@@ -147,15 +147,15 @@
             "TTS_DESC": "It converts text to sound.",
             "TTS_ERROR": "```Error, Speech example of your sentence couldn't be made!```",
             "SONG_DESC": "Uploads the song you wrote.",
-            "NEED_TEXT_SONG": "*Please write a song!*\n*Example:* ```.song eminem - rap god```",
-            "NO_RESULT": "*I couil find anything :(*",
+            "NEED_TEXT_SONG": "*Please write a song!*\n*Example:* ```.song dilo ka shooter```",
+            "NO_RESULT": "*I couldn't find anything :(*",
             "DOWNLOADING_SONG": "```Downloading your song...```",
             "UPLOADING_SONG": "```Uploading your song...```",
             "VIDEO_DESC": "Downloads video from YouTube.",
-            "NEED_VIDEO": "*Please write a video link!*\n*Example:* ```.video https://www.youtube.com/watch?v=nAFlVm5qeBc```",
+            "NEED_VIDEO": "*Please write a video link!*\n*Example:* ```.video https://www.youtube.com/watch?v=xxxxx```",
             "DOWNLOADING_VIDEO": "```Downloading your video...```",
             "UPLOADING_VIDEO": "```Uploading your video...```",
-            "YT_DESC": "It searchs on YouTube.",
+            "YT_DESC": "It searches on YouTube.",
             "NEED_WORDS": "```Please write a few words!```",
             "GETTING_VIDEOS": "```I'm bringing videos...```",
             "NOT_FOUND": "*I couldn't find anything :(*",
@@ -188,14 +188,14 @@
         },
         "weather": {
             "WEATHER_DESC": "Shows the weather.",
-            "NEED_LOCATION": "* Please write a location!*\n*Example:* ```.weather Bakü```",
+            "NEED_LOCATION": "* Please write a location!*\n*Example:* ```.weather Kolkata```",
             "LOCATION": "Location",
             "TEMP": "Temperature",
             "DESC": "Description",
             "HUMI": "Humidity",
             "WIND": "Wind Speed",
             "CLOUD": "Cloud",
-            "NOT_FOUND": "```I couldn't find a city with this name. 😖```"
+            "NOT_FOUND": "```I couldn't find any city with this name. 😖```"
         },
         "web": {
             "SPEEDTEST_DESC": "Measures Download and Upload speed.",
